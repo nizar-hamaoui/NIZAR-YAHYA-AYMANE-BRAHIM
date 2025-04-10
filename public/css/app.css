@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11850,6 +11851,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.top-p {
+  padding-top: 5vw;
 }
 
 /*# sourceMappingURL=app.css.map */
