@@ -12481,6 +12481,15 @@ ul {
   color: #68a4c4;
   text-decoration: none;
 }
+<<<<<<< HEAD
+=======
+
+.portfolio-filters {
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+}
+>>>>>>> moro
 
 .portfolio {
   background-color: #1e4356;
@@ -12574,6 +12583,147 @@ ul {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.sec-con-1 {
+  display: flex;
+  gap: 30px;
+  padding-inline: 100px;
+}
+.sec-con-1 p {
+  color: rgb(85, 85, 85);
+}
+
+.coll2 {
+  width: 600px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px 0px;
+  color: rgb(85, 85, 85);
+  display: block;
+  font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  font-weight: 400;
+  height: 333px;
+  margin-top: 0px;
+  opacit: 1;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding: 40px 30px 0;
+  position: relative;
+  height: 380px;
+}
+
+.nameemail {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.local {
+  border: 5px solid balck;
+}
+
+.adress {
+  opacity: 1;
+  padding: 24px 0 30px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px 0px;
+}
+.adress p {
+  color: rgb(104, 164, 196);
+}
+.adress i {
+  border: 1px dotted black;
+  font-size: 20px;
+  border-radius: 50%;
+  color: rgb(104, 164, 196);
+  padding: 10px;
+}
+.adress h3, .adress .h3 {
+  padding-top: 20px;
+}
+
+.twoin1 {
+  gap: 30px;
+  display: flex;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.number {
+  opacity: 1;
+  padding-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 24px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px 0px;
+}
+.number p {
+  color: rgb(104, 164, 196);
+}
+.number i {
+  border: 1px dotted black;
+  font-size: 20px;
+  border-radius: 50%;
+  color: rgb(104, 164, 196);
+  padding: 10px;
+}
+.number h3, .number .h3 {
+  padding-top: 20px;
+}
+
+.email {
+  opacity: 1;
+  padding-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 24px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px 0px;
+}
+.email p {
+  color: rgb(104, 164, 196);
+}
+.email i {
+  border: 1px dotted black;
+  font-size: 20px;
+  border-radius: 50%;
+  color: rgb(104, 164, 196);
+  padding: 10px;
+}
+.email h3, .email .h3 {
+  padding-top: 20px;
+}
+
+.butt {
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 35%;
+  padding: 10px 30px;
+  background-color: #68a4c4;
+  border-radius: 50px;
+  padding-bottom: 10px;
+}
+
+.name {
+  width: 300px;
+  height: 40px;
+}
+
+.mail {
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.subject {
+  padding-bottom: 10px;
 }
 
 /*# sourceMappingURL=app.css.map */
