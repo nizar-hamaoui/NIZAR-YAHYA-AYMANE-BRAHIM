@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11851,8 +11852,47 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.top-p {
-  padding-top: 5vw;
+.col-md-6 {
+  border: 2px black solid;
+}
+
+.row gy-4 {
+  display: flex;
+  gap: 10px;
+}
+
+.bi-activity {
+  color: red;
+}
+
+.bi-broadcast {
+  color: green;
+}
+
+.bi-easel {
+  color: orange;
+}
+
+.bi-bounding-box-circles {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.col-md-6 {
+  width: 300px;
+  height: 290px;
+  padding: 10px;
+  padding-left: 20px;
+}
+.col-md-6 p {
+  text-align: center;
+}
+
+.container {
+  gap: 30px;
 }
 
 /*# sourceMappingURL=app.css.map */
