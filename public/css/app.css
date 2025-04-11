@@ -12119,7 +12119,7 @@ ul {
     
 }
 .navbar-brand{
-            
+    
 }
 .navbar-nav li a{
     
@@ -12132,24 +12132,25 @@ position: relative;
 left: 600px;
 }
 .container-fluid a{
-    color: white;
-    text-decoration: none;
-    font-size: larger;
-   
-   
-   }
-   .container-fluid a:hover{
-    color: gray;
-    
-   
-   
-   }
-   .logo{
-    color: white;
-    position: relative;
-    left: 100px;
-    top: 10px;
-    font-size: 35px;
-   }
+color: white;
+text-decoration: none;
+font-size: larger;
+
+
+}
+
+.container-fluid a:hover{
+color: gray;
+
+
+
+}
+.logo{
+color: white;
+position: relative;
+left: 100px;
+top: 10px;
+font-size: 35px;
+}
 
 /*# sourceMappingURL=app.css.map */
