@@ -12059,4 +12059,25 @@ ul {
   text-decoration: none;
 }
 
+.portfolio-filters {
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+}
+
+.team .member .member-img img {
+  position: relative;
+  z-index: 1;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 /*# sourceMappingURL=app.css.map */
