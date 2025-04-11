@@ -5,7 +5,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
-@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11852,15 +11851,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.col-md-6 {
-  border: 2px black solid;
-}
-
-.row gy-4 {
-  display: flex;
-  gap: 10px;
-}
-
 .bi-activity {
   color: red;
 }
@@ -11877,22 +11867,138 @@ textarea.form-control-lg {
   color: blue;
 }
 
-a {
-  text-decoration: none;
+.sec1-div2 {
+  display: flex;
 }
 
-.col-md-6 {
-  width: 300px;
+.row-4 {
+  width: 309px;
   height: 290px;
-  padding: 10px;
-  padding-left: 20px;
+  border: 2px balck solid;
+  border-radius: 5px;
 }
-.col-md-6 p {
+
+h3, .h3 {
   text-align: center;
 }
 
-.container {
-  gap: 30px;
+.test1 {
+  display: flex;
+  gap: 20px;
+  padding-inline: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.test1 .row-4 {
+  position: relative;
+  border: 0.5px solid black;
+  padding: 20px;
+  box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-weight: 100;
+}
+.test1 .row-4:hover .icon1 {
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.test1 .row-4:hover .icon1 i {
+  color: #e8fafe;
+  background-color: #30caf0;
+}
+.test1 .row-4:hover .icon2 {
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.test1 .row-4:hover .icon2 i {
+  color: #fff3e9;
+  background-color: #fd7e14;
+}
+.test1 .row-4:hover .icon3 {
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.test1 .row-4:hover .icon3 i {
+  color: #eafaf5;
+  background-color: #20c997;
+}
+.test1 .row-4:hover .icon4 {
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.test1 .row-4:hover .icon4 i {
+  color: #eafaf5;
+  background-color: #e73929;
+}
+.test1 .row-4 .icon1 {
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.test1 .row-4 .icon1 i {
+  background-color: #e8fafe;
+  color: #30caf0;
+  font-size: 25px;
+  border-radius: 50%;
+  height: 50px;
+  padding: 14px;
+}
+.test1 .row-4 .icon2 {
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.test1 .row-4 .icon2 i {
+  background-color: #fff3e9;
+  color: #fd7e14;
+  font-size: 25px;
+  border-radius: 50%;
+  height: 50px;
+  padding: 14px;
+}
+.test1 .row-4 .icon3 {
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.test1 .row-4 .icon3 i {
+  background-color: #eafaf5;
+  color: #20c997;
+  font-size: 25px;
+  border-radius: 50%;
+  height: 50px;
+  padding: 14px;
+}
+.test1 .row-4 .icon4 {
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.test1 .row-4 .icon4 i {
+  background-color: #fce9eb;
+  color: #e73929;
+  font-size: 25px;
+  border-radius: 50%;
+  height: 50px;
+  padding: 14px;
+}
+.test1 .row-4 h3, .test1 .row-4 .h3 {
+  font-weight: 500;
+}
+
+.c1:hover {
+  border: 2px solid #30caf0;
+}
+
+.c2:hover {
+  border: 2px solid #fd7e14;
+}
+
+.c3:hover {
+  border: 2px solid #20c997;
+}
+
+.c4:hover {
+  border: 2px solid #e73929;
+}
+
+.top-p {
+  padding-top: 5vw;
 }
 
 #buut {
