@@ -1,6 +1,19 @@
 @import ../../node_modules/bootstrap/scss/bootstrap.scss
 @import ../../node_modules/bootstrap-icons/font/bootstrap-icons.css
-
+@import ../../node_modules/bootstrap/scss/functions
+@import ../../node_modules/bootstrap/scss/variables
+@import ../sass/modules/about.sass
 @import ../sass/modules/home.sass
 @import ../sass/modules/home.scss
 @import ../sass/modules/home.scss
+
+
+
+
+$orange: #68a4c4
+$vert: #68a4c1
+
+
+$colors: ("orange": $orange , "vert": $vert)
+
+$theme-colors: map-merge($colors , $theme-colors)
