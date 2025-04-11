@@ -6,25 +6,98 @@
     <title>Document</title>
     <link rel="stylesheet" href="./public/css/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        .nav1{
+            background:none ;
+            position: fixed;
+            z-index: 999;
+            
+        
+            
+            
+        }
+        .navbar-brand{
+            color: white;
+        }
+        .navbar-nav li a{
+            color: white;
+        }
+       .container-fluid{
+        display: flex;
+        justify-content: space-between;
+        gap: 25px;
+        position: relative;
+        left: 600px;
+       }
+       .container-fluid a{
+        color: white;
+        text-decoration: none;
+        font-size: larger;
+       
+       
+       }
+       
+       .container-fluid a:hover{
+        color: gray;
+        
+       
+       
+       }
+       .logo{
+        color: white;
+        position: relative;
+        left: 100px;
+        top: 10px;
+        font-size: 35px;
+       }
+       .sec1-div1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+       .carousel{
+        width: 85%;
+        height: 300px;
+
+       }
+       .tit-car{
+        color: white;
+        font-size: 40px;
+        
+       }
+       .pr-car{
+        color: white;
+        margin-top: 30px;
+
+       }
+       .carousel-caption{
+        position: relative;
+        
+       }
+       .carousel-caption{
+        width: 70%;
+       }
+      
+
+        
+        
+
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg nav1" >
+        <h1 class="logo">Moderna</h1>
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+
+            <a class="links" href="">home</a>
+            <a class="links" href="">about</a>
+            <a class="links" href="">services</a>
+            <a class="links" href="">contact</a>
+            <a class="links" href="">Blog</a>
+            <a class="links" href="">Portfolio</a>
+         
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown link
@@ -39,10 +112,80 @@
           </div>
         </div>
       </nav>
-    <section class="sec1"></section>
     
-    <section class="sec1">
-        <div class="sec1-div1"></div>
+    <section class="sec1" >
+        <div class="sec1-div1" style="background-image: url(./public/image/image.png); background-repeat: no-repeat; background-size: cover; width: 100%; height: 650px;">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <!-- hhh -->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-center tit-car">Welcome to Moderna</h5>
+                        <p class="text-center pr-car">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                        <button id="buut">
+                            <span class="text">Read More</span>
+                            <span class="endtext">Yes!</span>
+                            <div class="circles">
+                              <span class="circle c1"></span>
+                              <span class="circle c2"></span>
+                              <span class="circle c3"></span>
+                            </div>
+                            
+                          </button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-center tit-car">Lorem Ipsum Dolor</h5>
+                        <p class="text-center pr-car">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                        <button id="buut">
+                            <span class="text">Read More</span>
+                            <span class="endtext">Yes!</span>
+                            <div class="circles">
+                              <span class="circle c1"></span>
+                              <span class="circle c2"></span>
+                              <span class="circle c3"></span>
+                            </div>
+                            
+                          </button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-center tit-car">Sequi ea ut et est quaerat</h5>
+                        <p class="text-center pr-car">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                        <button id="buut">
+                            <span class="text">Read More</span>
+                            <span class="endtext">Yes!</span>
+                            <div class="circles">
+                              <span class="circle c1"></span>
+                              <span class="circle c2"></span>
+                              <span class="circle c3"></span>
+                            </div>
+                            
+                          </button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+
+        </div>
         <div class="sec1-div2">
             <div>
                 <div class="icon">
@@ -165,9 +308,70 @@
           </section><!-- /Features Section -->
     </section>
 
-    <footer class="foot">
+    <!-- footer  -->
+  <footer class="footer">
+    
+    <div class="newsletter">
+        <h2>Join Our Newsletter</h2>
+        <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+        <div class="newsletter-form">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </div>
+    </div>
 
-    </footer>
+    
+    <div class="container">
+        
+        <div class="footer-section company-info">
+            <h3>Moderna</h3>
+            <p>A108 Adam Street<br>New York, NY 535022</p>
+            <p><strong>Phone:</strong> +1 5589 55488 55</p>
+            <p><strong>Email:</strong> info@example.com</p>
+        </div>
+
+        
+        <div class="footer-section links">
+            <h4>Useful Links</h4>
+            <ul>
+                <li><i class="fas fa-chevron-right"></i><a href="#"> Home</a></li>
+                <li><i class="fas fa-chevron-right"></i><a href="#"> About us</a></li>
+                <li><i class="fas fa-chevron-right"></i><a href="#"> Services</a></li>
+                <li><i class="fas fa-chevron-right"></i><a href="#"> Terms of service</a></li>
+            </ul>
+        </div>
+
+       
+        <div class="footer-section services">
+            <h4>Our Services</h4>
+            <ul>
+                <li><i class="fas fa-chevron-right"></i><a href="#"> Web Design</a></li>
+                <li><i class="fas fa-chevron-right"></i><a href="#"> Web Development</a></li>
+                <li><i class="fas fa-chevron-right"></i><a href="#"> Product Management</a></li>
+                <li><i class="fas fa-chevron-right"></i><a href="#"> Marketing</a></li>
+            </ul>
+        </div>
+
+        
+        <div class="footer-section follow-us">
+            <h4>Follow Us</h4>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="footer-bottom">
+        <p>© Copyright <strong>Moderna</strong> All Rights Reserved</p>
+        <p>Designed by <a href="#">BootstrapMade</a></p>
+    </div>
+</footer>
+
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>

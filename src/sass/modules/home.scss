@@ -2,3 +2,252 @@
     padding-top: 5vw;
     
 }
+
+  #buut {
+    padding: 10px 0;
+    width: 180px;
+    background: none;
+    border-radius: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border: 3px solid #8b93be;
+    position: relative;
+    transition: all .2s ease;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 25px;
+  
+    &:hover {
+      background: #8b93be;
+  
+      .c1 {
+        animation: pulse .4s ease-out alternate 6;
+      }
+  
+      .c2 {
+        animation: pulse .4s ease-out .2s alternate 6;
+      }
+  
+      .c3 {
+        animation: pulse .4s ease-out .4s alternate 6;
+      }
+      .text {
+        opacity: 0;
+      }
+      .endtext {
+        animation: fadeIn .25s cubic-bezier(.56,.12,.73,1.39) 2.9s forwards;
+      }
+    }
+  }
+  
+  .text {
+    transition: all .2s ease;
+  }
+  
+  .endtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transform-origin: 50% 50%;
+    color: white;
+  }
+  
+  .circles {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+    opacity: 0;
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 0;
+      transform: translateY(-60%);
+    }
+    20% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+   @keyframes fadeIn {
+     0% {
+       opacity: 0;
+       transform: translate(-50%, -30%);
+     }
+     40% {
+       transform: translate(-50%, -70%);
+     }
+     100% {
+       opacity: 1;
+       transform: translate(-50%, -50%) scale(1);
+     }
+   }
+ul{
+    list-style-type: none;
+
+}
+
+.footer {
+    background-color: #1f3c4b;
+    color: white;
+    padding: 5vh 5vw;
+
+   
+    .newsletter {
+        text-align: center;
+        padding: 4vh 0;
+        border-bottom: 1px solid gray;
+
+        h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .newsletter-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            input {
+                width: 40vw;
+                max-width: 400px;
+                background-color:#284e62;
+                padding: 12px;
+
+                border: none;
+                font-size: 14px;
+                border-radius: 25px;
+          
+                
+            }
+
+            button {
+                background-color: #5897cf;
+                border: none;
+                padding: 12px 20px;
+                border-radius: 25px;
+                
+                font-size: 14px;
+                color: white;
+
+                
+            }
+        }
+    }
+
+    // Footer  Content
+    .container {
+        display: flex;
+        justify-content: space-between;
+        
+        max-width: 90vw;
+        margin: 0 auto;
+        padding-top: 4vh;
+    }
+
+    .footer-section {
+        width: 23vw;
+        min-width: 200px;
+        margin-bottom: 3vh;
+
+        h3, h4 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                margin-bottom: 8px;
+
+                i {
+                  color: #5897cf;
+                    margin-right: 5px;
+                    
+                }
+
+                a {
+                    color:white;
+                    text-decoration: none;
+                    font-size: 14px;
+
+                    &:hover {
+                        color:#5897cf;
+                    }
+                }
+            }
+        }
+    }
+
+  
+    .social-icons {
+        display: flex;
+        gap: 1vw;
+
+        a {
+            width: 40px;
+            height: 40px;
+            color: white !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #5897cf;
+            font-size: 18px;
+
+            border-radius: 50%;
+            
+           
+
+            &:hover {
+                background-color: #5897cf;
+                color: white;
+            }
+        }
+    }
+
+    
+    .footer-bottom {
+        text-align: center;
+
+        padding-top: 2vh;
+       
+        border-top: 1px solid gray;
+        
+
+        a {
+            color:#68a4c4;
+            text-decoration: none;
+
+           
+        }
+    }
+}
