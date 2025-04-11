@@ -11907,6 +11907,11 @@ textarea.form-control-lg {
   margin-top: 25px;
 }
 
+#testimonials {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
 .car2-div1 {
   width: 10%;
   text-align: center;
@@ -11938,6 +11943,138 @@ textarea.form-control-lg {
   position: relative;
   left: 20%;
   top: 10px;
+}
+
+.h1 {
+  color: #1e4371;
+}
+
+.border-b {
+  width: 10vw;
+  border-bottom: 1px solid grey;
+  position: relative;
+}
+
+.border-t {
+  position: absolute;
+  top: 9.5vh;
+  width: 5vw;
+  border: 2px solid #68a4c1;
+  z-index: 99;
+}
+
+.parent {
+  width: 100%;
+  gap: 10vw;
+  padding-inline: 50px;
+}
+
+.child {
+  width: 50%;
+}
+
+.child1 {
+  width: 100%;
+}
+
+#file {
+  width: 100%;
+}
+
+.child1-1 {
+  gap: 30vw;
+  width: 100%;
+}
+.child1-1 p {
+  color: grey;
+}
+
+progress {
+  border: none;
+  background: #68a4c1;
+}
+
+progress {
+  color: #68a4c1;
+}
+
+progress::-webkit-progress-value {
+  background: #68a4c1;
+}
+
+progress::-webkit-progress-bar {
+  background: #eeeeee !important;
+}
+
+.sec-blog {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.col-lg-4 {
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 5 10 30px rgba(0, 0, 0, 0.381);
+  border-radius: 10px;
+}
+
+.all {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.a-blo {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.a-blo:hover {
+  color: #30caf0;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+.post-category {
+  font-size: 14px;
+  font-weight: 500;
+  color: #30caf0;
+  margin-bottom: 10px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.pro-im {
+  display: block;
+  margin-top: 5px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.post-author {
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  color: #30caf0;
+  top: 20px;
+  left: 10px;
+}
+
+.post-date {
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  color: #30caf0;
+  top: 5px;
+  left: 10px;
 }
 
 .bi-activity {
