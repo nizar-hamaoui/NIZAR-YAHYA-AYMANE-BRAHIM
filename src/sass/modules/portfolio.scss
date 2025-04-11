@@ -1,17 +1,98 @@
-.portfolio-filters{
-    display: flex;
-    justify-content: center;
-    gap: 3vw;
-}
 .portfolio{
+    background-color: #1e4356;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    gap: 1vh;
+    padding-top: 10vh;
 }
-.team .member .member-img img {
-    position: relative;
-    z-index: 1;
+.portfolio>h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color:white;
+    font-family: "roboto";
 }
-.img-fluid {
-    max-width: 100%;
-    height: auto;
+
+.portfolio>p {
+    width: 60% ;
+    text-align: center;
+    padding: 20px;
+    color: white;
 }
+
+
+// tabs
+
+
+.tabs {
+    overflow: hidden;
+    text-align: center;
+    padding: 2vh;
+
+}
+
+.tabs > input {
+    display: none;
+}
+
+.tabs > label {
+    display: inline-block;
+    width: calc(50% / 5);
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.tabs > input:checked + label {
+    background-color: #1e4356;
+    color: white;
+    border-radius: 50px;
+}
+
+.content {
+    display: none;
+    padding: 20px;
+}
+
+#tab1:checked ~ #content2 ,
+#tab1:checked ~ #content3,
+#tab1:checked ~ div > #content4,
+#tab1:checked ~ div > #content5,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ div > #content4,
+#tab5:checked ~ div > #content2
+ {
+    display: block;
+}
+#tab4:checked ~ div > #content4,
+#tab4:checked ~ div > #content2,
+#tab5:checked ~ div > #content5{
+    width: 25%;
+}
+
+.porfolio-card{
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+    align-items: start;
+    background-color: #ffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+.porfolio-card > img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.porfolio-card >div{
+    padding: 1vw;
+   
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
